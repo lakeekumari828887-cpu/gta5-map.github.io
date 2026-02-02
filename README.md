@@ -1,13 +1,13 @@
 GTA V Glitch map
 ====
 
-This interactive (Google) map shows you the location of current working GTA V glitches, wall breaches and vehicle spawn areas including an example video, credits and a short description.
+This interactive (Google) map shows you the location of current working GTA V glitches, wall breaches and vehicle spawn areas including an example video, credits and a short description: http://gta5-map.github.io/
+
+**Caution**: this is unmaintained since 12 years!
 
 ## Screenshots
 
-![screenshot-1](http://cl.ly/image/1j29420t0a10/+)
-
-![screenshot-2](http://cl.ly/image/0R0V051E1y1j/+)
+![screenshot-1](./screenshot.png)
 
 ## Usage
 
