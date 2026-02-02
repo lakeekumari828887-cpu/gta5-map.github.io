@@ -1,9 +1,6 @@
 $(function() {
 	var showCoordinations = true;
 
-	if (window.location.protocol != "http:") {
-	    window.location.href = "http:" + window.location.href.substring(window.location.protocol.length);		
-	}
 
 
 	var $types = $('.types');
@@ -49,7 +46,7 @@ $(function() {
 	var currentMarker;
 	
 	var assetsUrl = function() {
-		return window.location.hostname == 'localhost' ? '' : 'http://gta5-map.github.io/';
+		return window.location.hostname == 'localhost' ? '' : '/';
 	};
 
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
