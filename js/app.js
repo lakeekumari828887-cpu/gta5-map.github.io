@@ -261,7 +261,8 @@ $(function() {
 				disableDefaultUI: true,
 				mapTypeControl: true,
 				mapTypeControlOptions: { mapTypeIds: _.keys(this.mapDetails) },
-				mapTypeId: this.mapType
+				mapTypeId: this.mapType,
+				backgroundColor: '#1862ad'
 			};
 
 			_.bindAll(this, 'getTileImage', 'updateMapBackground');
